@@ -4,7 +4,8 @@
   "description": "Repositório do Workshop do 0 ao deploy com Node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint ./src --ext .json --ext .js --fix"
   },
   "engines": {
     "node": ">=12"
@@ -23,5 +24,14 @@
   "dependencies": {
     "koa": "^2.11.0",
     "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }

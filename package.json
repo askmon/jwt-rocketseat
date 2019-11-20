@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/askmon/zero-ao-deploy#readme",
   "dependencies": {
+    "bcrypt": "^3.0.7",
     "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
     "pg": "^7.14.0",
     "pg-hstore": "^2.3.3",
+    "ramda": "^0.26.1",
     "sequelize": "^5.21.2",
     "sequelize-cli": "^5.5.1"
   },

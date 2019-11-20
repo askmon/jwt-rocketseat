@@ -1,13 +1,25 @@
-const bcrypt = require('bcrypt')
 const R = require('ramda')
 
+const crypto = require('./crypto')
 const { User } = require('../models')
 
-const getUsers = () => User.findAll({}).then(R.map(user => user.get({ plain: true }))).then(R.map(R.omit(['password'])))
-const createUser = user => bcrypt.hash(user.password, 10).then(hash => User.create({
-  ...user,
-  password: hash,
-}))
+const serializeUsers = users =>
+  users
+    .map(user => user.get({ plain: true }))
+    .map(R.omit(['password']))
+
+const getUsers = () =>
+  User
+    .findAll({})
+    .then(serializeUsers)
+
+const createUser = user =>
+  crypto
+    .hash(user.password)
+    .then(hash => User.create({
+      ...user,
+      password: hash,
+    }))
 
 module.exports = {
   getUsers,

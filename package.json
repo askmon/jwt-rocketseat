@@ -4,9 +4,10 @@
   "description": "Repositório do Workshop do 0 ao deploy com Node",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "npm run sequelize:migrate && node src/index.js",
     "dev": "NODE_ENV=dev nodemon --inspect=0.0.0.0 src/index.js",
-    "lint": "eslint ./src ./config --ext .json --ext .js --fix"
+    "lint": "eslint ./src ./config --ext .json --ext .js --fix",
+    "sequelize:migrate": "sequelize db:migrate --env database"
   },
   "engines": {
     "node": ">=12"

@@ -28,7 +28,8 @@
     "koa-router": "^7.4.0",
     "pg": "^7.14.0",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.21.2"
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",

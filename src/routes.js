@@ -2,6 +2,7 @@ const Router = require('koa-router')
 
 // middlewares
 const error = require('./middlewares/error')
+const authenticated = require('./middlewares/auth')
 
 // handlers
 const greetings = require('./handlers/greetings')
@@ -17,7 +18,7 @@ router.get('/hello', greetings.hello)
 router.get('/', greetings.index)
 
 router.get('/users', users.getAllUsers)
-router.post('/users', users.createUser)
+router.post('/users', authenticated, users.createUser)
 
 router.post('/auth', auth.authenticate)
 

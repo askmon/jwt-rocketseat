@@ -5,5 +5,5 @@ const server = require('./server')
 
 module.exports = {
   database,
-  server
+  server,
 }

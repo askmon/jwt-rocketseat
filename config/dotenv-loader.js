@@ -6,7 +6,7 @@ const DOTENV_ENVIRONMENTS = [...DEV_ENVIRONMENTS, ...TEST_ENVIRONMENTS]
 
 const load = nodeEnv => {
   const dotenv = require('dotenv')
-  
+
   if (!DOTENV_ENVIRONMENTS.includes(nodeEnv)) {
     console.info('Skipping dotenv configuration')
     return

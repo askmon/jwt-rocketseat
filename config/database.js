@@ -5,6 +5,6 @@ module.exports = {
     max: 15,
     min: 0,
     acquire: 10000,
-    idle: 1000
+    idle: 1000,
   },
 }

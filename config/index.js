@@ -1,0 +1,9 @@
+require('./dotenv-loader').load(process.env.NODE_ENV)
+
+const database = require('./database')
+const server = require('./server')
+
+module.exports = {
+  database,
+  server
+}

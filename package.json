@@ -4,7 +4,8 @@
   "description": "Repositório do Workshop do 0 ao deploy com Node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=dev nodemon --inspect=0.0.0.0 src/index.js"
   },
   "engines": {
     "node": ">=12"
@@ -22,6 +23,13 @@
   "homepage": "https://github.com/askmon/zero-ao-deploy#readme",
   "dependencies": {
     "koa": "^2.11.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "pg": "^7.14.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.0"
   }
 }

@@ -1,2 +1,2 @@
-# zero-ao-deploy
-Repositório do Workshop do 0 ao deploy com Node
+# jwt - melhores práticas
+Repositório do Workshop de melhores práticas usando jwt

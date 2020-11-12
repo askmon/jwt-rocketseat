@@ -1,7 +1,7 @@
 {
   "name": "zero",
   "version": "1.0.0",
-  "description": "Repositório do Workshop do 0 ao deploy com Node",
+  "description": "Repositório do Workshop de JWT para a Rocketseat",
   "main": "index.js",
   "scripts": {
     "start": "npm run sequelize:migrate && node src/index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/askmon/zero-ao-deploy.git"
+    "url": "git+https://github.com/askmon/jwt-rocketseat.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/askmon/zero-ao-deploy/issues"
+    "url": "https://github.com/askmon/jwt-rocketseat/issues"
   },
-  "homepage": "https://github.com/askmon/zero-ao-deploy#readme",
+  "homepage": "https://github.com/askmon/jwt-rocketseat#readme",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",

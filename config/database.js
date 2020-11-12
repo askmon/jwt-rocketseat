@@ -1,8 +1,9 @@
 module.exports = {
-  url: process.env.DATABASE_URL,
+  // For the sake of the example only, please use env vars
+  url: 'postgresql://postgres:password@localhost/postgres',
   dialect: 'postgres',
   dialectOptions: {
-    ssl: process.env.DATABASE_USE_SSL !== 'false',
+    ssl: false,
   },
   pool: {
     max: 15,

@@ -1,3 +1,4 @@
 module.exports = {
-  port: process.env.PORT,
+  // For the sake of the example only, please use env vars
+  port: 3000,
 }

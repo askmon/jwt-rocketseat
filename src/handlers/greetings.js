@@ -3,7 +3,7 @@ const models = require('../models')
 const index = ctx =>
   models
     .authenticate()
-    .then(() => (ctx.body = 'JWT exemplo: connectado com sucesso'))
+    .then(() => (ctx.body = 'JWT exemplo: conectado com sucesso'))
 
     /* eslint-disable prefer-promise-reject-errors */
     .catch(error => Promise.reject({

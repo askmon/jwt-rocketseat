@@ -1,5 +1,5 @@
 {
-  "name": "zero",
+  "name": "jwt-rs",
   "version": "1.0.0",
   "description": "Repositório do Workshop de JWT para a Rocketseat",
   "main": "index.js",

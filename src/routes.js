@@ -13,10 +13,6 @@ const router = new Router()
 
 router.use(error)
 
-router.get('/hello/:name', greetings.hello)
-router.get('/hello', greetings.hello)
-router.get('/', greetings.index)
-
 router.get('/users', users.getAllUsers)
 router.post('/users', authenticated, users.createUser)
 

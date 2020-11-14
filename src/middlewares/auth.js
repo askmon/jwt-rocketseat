@@ -22,5 +22,6 @@ module.exports = (ctx, next) => {
   const token = extractToken(ctx)
   return verify(token)
     .catch(handleError)
+    .then(({ role }) => (ctx.state.role = role))
     .then(next)
 }

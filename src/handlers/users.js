@@ -5,6 +5,7 @@ const getAllUsers = async ctx => {
 }
 
 const createUser = async ctx => {
+  console.log(ctx.state)
   ctx.body = await userService.createUser(ctx.request.body)
 }
 

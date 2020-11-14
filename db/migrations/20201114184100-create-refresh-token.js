@@ -9,7 +9,7 @@ module.exports = {
         },
         user_id: {
           allowNull: false,
-          type: Sequelize.STRING,
+          type: Sequelize.INTEGER,
         },
         token: {
           allowNull: false,

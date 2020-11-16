@@ -5,7 +5,6 @@ const error = require('./middlewares/error')
 const authenticated = require('./middlewares/auth')
 
 // handlers
-const greetings = require('./handlers/greetings')
 const users = require('./handlers/users')
 const auth = require('./handlers/auth')
 

@@ -43,7 +43,7 @@ Caso queira usar chaves previamente geradas, copie o arquivo `.env.example` para
 
 Qualquer dúvida/problema referente ao projeto, sinta-se livre para abrir uma issue no projeto que eu vou responder assim que possível.
 
-## Link e referências
+## Links e referências
 
 - [jwt.io](https://jwt.io/) - Debugger e referências sobre JWT (em inglês)
 - [Melhores práticas ao usar JWT](https://auth0.com/blog/a-look-at-the-latest-draft-for-jwt-bcp/) (em inglês)

@@ -4,6 +4,8 @@ Repositório do Workshop de melhores práticas usando JWT.
 
 Na branch `complete` você encontra a versão final do projeto feita durante o workshop.
 
+Este projeto foi desenvolvido em um Mac, mas acredito que tudo rode em Linux, e no Windows com algumas modificações.
+
 ## Requisitos
 
 Este projeto consiste de uma API feita em Node.js que consome um banco PostgreSQL. Há um arquivo `.nvmrc` no projeto caso queira realizar a instalação usando o [nvm](https://github.com/nvm-sh/nvm).

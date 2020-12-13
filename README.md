@@ -4,7 +4,7 @@ Repositório do Workshop de melhores práticas usando JWT.
 
 Na branch `complete` você encontra a versão final do projeto feita durante o workshop.
 
-Este projeto foi desenvolvido em um Mac, mas acredito que tudo rode em Linux, e no Windows com algumas modificações.
+Este projeto foi desenvolvido em um Mac, mas acredito que tudo rode em Linux, e no Windows com algumas modificações em alguns comandos.
 
 ## Requisitos
 
